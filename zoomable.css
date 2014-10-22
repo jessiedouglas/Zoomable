@@ -1,14 +1,20 @@
 .zoomable {
-  width: 200px;
   position: relative;
+  margin: 50px 255px;
+  border: 5px solid black;
+}
+
+.left-half {
+  width: 50%;
 }
 
 .zoomable > img {
   width: 100%;
+  display: block;
 }
 
 .focus-box {
-  border: 1px solid white;
+  border: 1px solid black;
   position: absolute;
   background: transparent;
 
@@ -20,14 +26,17 @@
   top: 0;
   bottom: 0;
   right: 0;
- /* left: 500px;*/
   background-repeat: no-repeat;
   border: 5px solid black;
   float: right;
   margin-top: -200px;
- /* height: 1000px;*/
-  /*background-image: url("download (11).jpeg");
-  background-size: 50%;
-  background-position: 25% 25%;
-  display: block;*/
+  margin-right: 50px;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px;
 }
