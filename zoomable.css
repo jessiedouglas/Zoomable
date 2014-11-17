@@ -2,6 +2,7 @@
   position: relative;
   margin: 50px 255px;
   border: 5px solid black;
+	width: 200px;
 }
 
 .left-half {
@@ -11,6 +12,14 @@
 .zoomable > img {
   width: 100%;
   display: block;
+}
+
+.left-half > p {
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-align: center;
+	font-weight: bold;
+	margin-top: -40px;
 }
 
 .focus-box {
